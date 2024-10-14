@@ -188,7 +188,7 @@ body {
 .flower__line {
   height: 55vmin;
   width: 1.5vmin;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), transparent, rgba(255, 255, 255, 0.2)), linear-gradient(to top, transparent 10%, #ED7A9B, #ED7A9B);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), transparent, rgba(255, 255, 255, 0.2)), linear-gradient(to top, transparent 10%, #0bedc8, #0bedc8);
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
   animation: grow-flower-tree 4s backwards;
 }
@@ -624,7 +624,7 @@ body {
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
   box-shadow: inset 0 2px 1vmin rgba(44, 238, 252, 0.2);
-  background-image: linear-gradient(to bottom left, transparent, var(--dark-color)), linear-gradient(to bottom right, #ED7A9B 50%, transparent 50%, transparent);
+  background-image: linear-gradient(to bottom left, transparent, var(--dark-color)), linear-gradient(to bottom right, #0bedc8 50%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(to bottom right, #0bedc8 50%, transparent 50%, transparent);
   mask-image: linear-gradient(to bottom right, #0bedc8 50%, transparent 50%, transparent);
 }
